@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
-import PersonCard from './components/PersonCard';
+import PersonCard from './components/PersonCard.js';
 
 function App() {
   return (
