@@ -1,0 +1,52 @@
+.app {
+  background-color: #dddddd;
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+.header{
+  background-color: #6aa84f;
+  height: 20vh;
+  margin-bottom: 20px;
+}
+
+.navigation {
+  background-color: #6fa8dc;
+  height: 60vh;
+  flex:1
+}
+
+.main{
+  background-color: #e06666;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex:3
+}
+
+.subContent{
+  background-color: #ffd966;
+  flex:1;
+  margin-bottom: 20px;
+}
+
+.advertisement{
+  background-color: #b4a7d6;
+  height: 15vh;
+}
+
+.row{
+  display: flex;
+  justify-content: space-between;
+  gap:20px;
+  flex: 1;
+}
+
+.wrap{
+  display: flex;
+  justify-content: center;
+}

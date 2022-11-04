@@ -1,0 +1,76 @@
+@font-face {
+  font-family: starWars;
+  src: url(../public/Starjedi.ttf);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --sw: #FFFF45
+}
+
+body{
+  background: url(../public/stars.jpg)
+}
+h1{
+  text-shadow: 1px 0 0 var(--sw), 0 -1px 0 var(--sw), 0 1px 0 var(--sw), -1px 0 0 var(--sw);
+  font-size: 100px;
+  font-family: starWars;
+  text-align: center;
+}
+
+label,p,h2,a{
+  color:white;
+  margin-bottom: 5px;
+}
+input{
+  width: 40px;
+}
+
+button{
+  padding: 3px 5px;
+  border: none;
+  border-radius: 10px;
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: rgb(223, 223, 223);
+}
+img{
+  border-radius: 20px;
+  padding: 12px 25px;
+  max-width:50vw;
+  min-width: 30vw;
+}
+.four-o-four{
+  text-align: center;
+}
+
+.form-container{
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+  gap: 10px;
+}
+
+.display-box{
+  display: flex;
+  background-color: #2b2b2b;
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 9px 15px;
+  /* margin: 0 35vw; */
+  max-width: 55vw;
+  min-width: 35vw;
+}
+.outer-display{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
