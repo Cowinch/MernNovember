@@ -4,7 +4,9 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
-
+:root{
+  --grey-bg: rgb(230, 230, 230)
+}
 h1, h3{
   text-align: center;
   margin: 0 20px;
@@ -24,9 +26,10 @@ h1, h3{
   display: flex;
   justify-content: space-between;
   margin-bottom: 12px;
-  background-color: rgb(230, 230, 230);
+  background-color: var(--grey-bg);
   padding: 6px 10px;
   border-radius: 7px;
+  border-bottom: 1px solid rgb(148, 148, 148);
 }
 
 input{
@@ -42,11 +45,51 @@ button{
 
 .product-list-container{
   display: flex;
-  flex-direction: column;
+  margin: 0 25vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.one-product{
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgb(148, 148, 148);
+  background-color: var(--grey-bg);
+  padding: 6px 10px;
+  border-radius: 8px;
+}
+
+.display{
+  width: fit-content;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+}
+
+.options{
+  display: flex;
+  justify-content: space-between;
+  gap: 7px;
+  margin-top: 5px;
   align-items: center;
 }
 
-ul{
-  margin-bottom: 5px;
+.link{
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
+.edit{
+  background-color: rgb(224, 224, 155);
+}
+.deleto{
+  background-color: rgb(224, 150, 150);
+}
+
+ul > p {
+  font-size: 18px;
+}
+
+
 
