@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.h1-header{
+  text-align: center;
+  margin: 0 20px;
+  margin-bottom: 25px;
+}
+.form-container{
+  display: flex;
+  justify-content: center;
+}
+.form-box{
+}
+
+.input-box{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  background-color: rgb(230, 230, 230);
+  padding: 6px 10px;
+  border-radius: 7px;
+}
+
+input{
+  border: none;
+}
+button{
+  border: none;
+  background-color: #93e593;
+  padding: 6px 10px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
